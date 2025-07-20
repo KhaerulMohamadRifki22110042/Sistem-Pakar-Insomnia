@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Konsultasi Insomnia - InsomniCare</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<div class="container">
+    <h1>Konsultasi Insomnia</h1>
+    <form action="proses_konsultasi.html" method="POST">
+        <h2>Pilih Gejala:</h2>
+
+        <!-- Daftar gejala ditampilkan langsung tanpa PHP -->
+        <div><input type="checkbox" name="gejala[]" value="Sulit tidur"> Sulit tidur</div>
+        <div><input type="checkbox" name="gejala[]" value="Sering terbangun di malam hari"> Sering terbangun di malam hari</div>
+        <div><input type="checkbox" name="gejala[]" value="Bangun terlalu pagi"> Bangun terlalu pagi</div>
+        <div><input type="checkbox" name="gejala[]" value="Tidak merasa segar setelah tidur"> Tidak merasa segar setelah tidur</div>
+        <div><input type="checkbox" name="gejala[]" value="Kesulitan berkonsentrasi"> Kesulitan berkonsentrasi</div>
+
+        <br>
+        <button type="submit">Proses Konsultasi</button>
+    </form>
+</div>
+</body>
+</html>
